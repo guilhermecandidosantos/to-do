@@ -1,7 +1,9 @@
 import './global.css'
 
 export function App() {
-  return ()
+  return (
+    <></>
+  )
 }
 
 export default App
