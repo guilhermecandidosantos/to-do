@@ -46,6 +46,7 @@
 
 .tasksEmpty > img {
   width: 3.5rem;
+  padding-bottom: 1rem;
 }
 
 .tasksEmpty > p {
