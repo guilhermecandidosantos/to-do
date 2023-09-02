@@ -1,0 +1,35 @@
+.tasks {
+  max-width: 46rem;
+  width: 100%;
+  margin: 5.6875rem auto 0 auto;
+}
+
+.tasks > header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5625rem;
+}
+
+.tasks > header > div > p {
+  display: inline;
+  margin-right: 0.8rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.tasks > header > div:first-child > p {
+  color: var(--blue);
+}
+
+.tasks > header > div:last-child > p{
+  color: var(--purple);
+}
+
+.tasks > header > div > span {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 999px;
+}

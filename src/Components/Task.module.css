@@ -1,0 +1,66 @@
+.task {
+  width: 100%;
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.task + .task {
+  margin-top: 0.75rem;
+}
+
+.checkboxUnchecked {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.checkboxUnchecked:hover {
+  background: var(--blue-dark);
+  opacity: 0.2;
+}
+
+.checkboxChecked {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: var(--purple-dark);
+  color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.checkboxChecked:hover {
+  background: var(--purple);
+}
+
+.content {
+  flex: 1;
+}
+
+.trash {
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.trash:hover {
+  background: var(--gray-400);
+  color: var(--danger)
+}
